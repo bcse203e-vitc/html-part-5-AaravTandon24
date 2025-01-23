@@ -1,0 +1,46 @@
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  background-color: greenyellow;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-button {
+  background: linear-gradient(to right, #ff7e5f, #4d68c9);
+  color: white;
+  font-weight: bold;
+}
+
+.hover-border-button {
+  background-color: aqua;
+  border: 2px solid black;
+  color: white;
+  transition: border-color 0.3s ease;
+}
+
+.hover-border-button:hover {
+  border-color: green;
+  color: blueviolet;
+}
+
+.glowing-button {
+  background-color: gold;
+  color: black;
+  box-shadow: 0 0 5px yellow;
+  transition: box-shadow 0.3s ease;
+}
+
+.glowing-button:hover {
+  box-shadow: 0 0 20px gold;
+}
